@@ -1,0 +1,84 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Casting",
+      "request": "launch",
+      "mainClass": "scjp.c2.Casting",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Empleados",
+      "request": "launch",
+      "mainClass": "examples.Empleados",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "MultiInterface",
+      "request": "launch",
+      "mainClass": "scjp.MultiInterface",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Employees",
+      "request": "launch",
+      "mainClass": "examples.Employees",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Rango",
+      "request": "launch",
+      "mainClass": "examples.Rango",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Sistema",
+      "request": "launch",
+      "mainClass": "examples.Sistema",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Metodos",
+      "request": "launch",
+      "mainClass": "examples.Metodos",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Argumentos",
+      "request": "launch",
+      "mainClass": "Argumentos",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Parametros",
+      "request": "launch",
+      "mainClass": "examples.Parametros",
+      "projectName": "OCA_301f841d"
+    }
+  ]
+}

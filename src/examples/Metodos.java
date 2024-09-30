@@ -40,6 +40,10 @@ public class Metodos {
   public static int pnnTernario(int x) {
     return x > 0 ? 1 : x < 0 ? -1 : 0;
   }
+  
+  public static int aleatorio(int m, int n) {  // m es el minimo y n el maximo    [m,n]
+    return (int) (Math.random() * (n - m + 1) + m);
+  }
 
   public static void main(String[] args) {
     int r = 0;
@@ -53,6 +57,8 @@ public class Metodos {
     System.out.println(r);
 
     System.out.println(pnnTernario(10));
+
+    System.out.println(aleatorio(50, 55));
 
   }
 

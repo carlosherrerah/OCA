@@ -26,7 +26,7 @@ public class Parametros {
     return suma;
   }
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
     int[] datos = new int[]  {1, 2, 3, 4, 5};
 
     System.out.println(sumar(1, 2));     
