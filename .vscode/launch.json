@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P3Enums",
+      "request": "launch",
+      "mainClass": "scjp.c1.P3Enums",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P4Enums",
+      "request": "launch",
+      "mainClass": "scjp.c1.P4Enums",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Constructores",
+      "request": "launch",
+      "mainClass": "scjp.c1.Constructores",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Child",
+      "request": "launch",
+      "mainClass": "scjp.c1.p3Accesos.d2.Child",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P1Wombat",
+      "request": "launch",
+      "mainClass": "scjp.c1.P1Wombat",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Wombat",
+      "request": "launch",
+      "mainClass": "scjp.c1.Wombat",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "p4Private",
+      "request": "launch",
+      "mainClass": "scjp.c2.p4Private",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "p2Herencia",
+      "request": "launch",
+      "mainClass": "scjp.c2.p2Herencia",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "MultiInterface",
+      "request": "launch",
+      "mainClass": "scjp.c2.MultiInterface",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Has_a",
+      "request": "launch",
+      "mainClass": "scjp.c2.Has_a",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
       "name": "Casting",
       "request": "launch",
       "mainClass": "scjp.c2.Casting",

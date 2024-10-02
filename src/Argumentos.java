@@ -1,4 +1,4 @@
-import examples.Parametros;
+import scjp.c0.P1Parametros;
 
 public class Argumentos {
 
@@ -18,7 +18,7 @@ public class Argumentos {
     }
     System.out.println();
 
-    resultado = Parametros.sumar(10, 20);
+    resultado = P1Parametros.sumar(10, 20);
     System.out.println("La suma es : " + resultado);
 
     System.out.println(". . . Hecho en Argumentos");

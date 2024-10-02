@@ -1,6 +1,6 @@
-package examples;
+package scjp.c0;
 
-public class Rango {
+public class P4Rango {
 
   public static void main(String[] args) {
     // 8 primitivos: byte, short, int, long, boolean, char, float, double

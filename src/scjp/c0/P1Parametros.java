@@ -1,6 +1,6 @@
-package examples;
+package scjp.c0;
 
-public class Parametros {
+public class P1Parametros {
 
   public static int sumar(int a, int b) {
     return a + b;

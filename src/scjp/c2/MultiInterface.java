@@ -21,6 +21,9 @@ public class MultiInterface implements I1, I2 {
   }
 
   public static void main(String[] args) {
-    new MultiInterface().go();
+    new MultiInterface().go();    // 3
+    MultiInterface a = new MultiInterface();
+    System.out.println(a.doStuff());   // 3
+
   }
 }

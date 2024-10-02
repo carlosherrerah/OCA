@@ -1,6 +1,6 @@
-package examples;
+package scjp.c0;
 
-public class Metodos {
+public class P2Metodos {
 
   public static String esParImpar(int x) {
     String r = "";
