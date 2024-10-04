@@ -1,9 +1,0 @@
-SCJP_8 pag 25/1777
-
-1 Declarations and Access Control				
-2 Object Orientation							
-3 Assignments									
-4 Operators										
-5 Flow Control and Exceptions					
-6 Strings, Arrays, ArrayLists, Dates, and Lambdas
-

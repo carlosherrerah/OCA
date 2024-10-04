@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P6Arreglos",
+      "request": "launch",
+      "mainClass": "scjp.c0.P6Arreglos",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Breaker2",
+      "request": "launch",
+      "mainClass": "pregunta001.Breaker2",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Title",
+      "request": "launch",
+      "mainClass": "pregunta022.Title",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Pregunta006",
+      "request": "launch",
+      "mainClass": "deitel.Pregunta006",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
       "name": "P3Enums",
       "request": "launch",
       "mainClass": "scjp.c1.P3Enums",

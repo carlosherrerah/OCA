@@ -11,7 +11,32 @@ public class P6Arreglos {
     Scanner scanner = new Scanner(System.in);
 
     int[] a = new int[] { 6, 8, 2, 4 };
-    Integer b[] = new Integer[] { 10, 8, 4, 6 };
+    Integer b[] = new Integer[] { 10, 8, 4, 6 };  
+    // Wrapper classes provide a way to use primitive data types (int, boolean, etc..) as objects.
+
+    int[] c;
+    c = new int[3];
+
+    char[] saludo = new char[]{'H', 'e', 'l', 'l','o'};
+    String[] despedida =  new String[]{"See", "You"};
+    char letra = despedida[0].charAt(0);
+    String cadena = despedida[0].valueOf(0);
+    cadena = despedida[0].valueOf(letra);
+    cadena = String.valueOf(saludo);
+    cadena = new String(saludo);
+    System.out.println(cadena);
+    
+    letra = '5';
+    int numero = letra - 48;    // char to int
+    System.out.println(numero+1);
+    
+    letra = 65;
+    letra ='A';
+    System.out.println(letra);
+
+    String myStr = "Hello";    // String to char
+    char[] myArray = myStr.toCharArray();
+    System.out.println(myArray[0]);
 
     // Flexible y buenas practicas, generico, programacion por interfaz
     List<Integer> list = Arrays.asList(7, 3, 9, 10, 5);
@@ -24,7 +49,7 @@ public class P6Arreglos {
     List<Integer> bList = Arrays.asList(b);
 
     // Convert ArrayList to an array.
-    Integer[] c = bList.toArray(new Integer[0]);
+    Integer[] bArray = bList.toArray(new Integer[0]);
 
     // Matrices
     int[][] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
