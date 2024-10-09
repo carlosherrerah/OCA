@@ -1,6 +1,5 @@
 package scjp.c2;
 
-import java.io.FileNotFoundException;
 
 class X {}
 class Y extends X {}

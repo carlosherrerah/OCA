@@ -26,7 +26,7 @@ public class P3Sistema {
     
     System.out.println(b);
 
-    float x = 0Xb1;  // Que numero es?
+    float x = 0Xb1;  // Que numero es? 
   }
 
 }

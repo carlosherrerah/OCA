@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Child",
+      "request": "launch",
+      "mainClass": "scjp.c1.p2Accesos.d2.Child",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Empleados",
+      "request": "launch",
+      "mainClass": "scjp.c0.Empleados",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P4Rango",
+      "request": "launch",
+      "mainClass": "scjp.c0.P4Rango",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Evaluacion",
+      "request": "launch",
+      "mainClass": "personal.Evaluacion",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
       "name": "P6Arreglos",
       "request": "launch",
       "mainClass": "scjp.c0.P6Arreglos",

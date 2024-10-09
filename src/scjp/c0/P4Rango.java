@@ -6,8 +6,8 @@ public class P4Rango {
     // 8 primitivos: byte, short, int, long, boolean, char, float, double
     // 2^n  - 1 donde n = No. de bits :  No. Maximo
 
-    byte a =  -128;
-    Byte A =  127;
+    byte a =  127;
+    Byte A =  -128;
 
     //a = 128;  // Error: byte
     a = (byte) 514;   // // Number is "chopped"   No error
@@ -18,8 +18,9 @@ public class P4Rango {
     System.out.println("Byte Min:    " + Byte.MIN_VALUE);
     System.out.println(a);
 
-    int x = 5, y = 6;
-    double z = (double) (x + y) / 2 ;   // casting
+    int x = 5; //, y = 6;
+    double y = 6;
+    double z = /*(double)*/ (x + y) / 2 ;   // casting
     // z = (x + y ) / 2;
     System.out.println(z);
 

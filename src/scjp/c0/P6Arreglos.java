@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class P6Arreglos {
   public static void main(String[] args) {
+    int xx;
+    //System.out.println(xx);  // Error, no se ha inicializado
 
     Scanner scanner = new Scanner(System.in);
 
@@ -19,8 +21,9 @@ public class P6Arreglos {
 
     char[] saludo = new char[]{'H', 'e', 'l', 'l','o'};
     String[] despedida =  new String[]{"See", "You"};
-    char letra = despedida[0].charAt(0);
-    String cadena = despedida[0].valueOf(0);
+    
+    char letra = despedida[0].charAt(0);  // S
+    String cadena = despedida[0].valueOf(0);  // S
     cadena = despedida[0].valueOf(letra);
     cadena = String.valueOf(saludo);
     cadena = new String(saludo);
@@ -53,13 +56,13 @@ public class P6Arreglos {
 
     // Matrices
     int[][] matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-    int[][] matrix2 = new int[3][3];
+    int matrix2[][] = new int[3][3];
     int[] matrix3[] = new int[3][2];
 
     int[][] array2D = new int[][] { { 0 }, { 1 } };
     int[][][] array3D = { { { 0, 1 }, { 2, 3 }, { 4, 5 } } }; // 1X3X2
 
-    matrix2[0][0] = 1;
+    matrix2[0][0] = 5;
     System.out.println("Ingrese un valor para la matriz 2: ");
     matrix2[0][1] = scanner.nextInt();
 

@@ -1,6 +1,7 @@
 package scjp.c0;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,6 +19,8 @@ class Empleado {
   public String toString() {
     return "{ " + "id: " + id + ", " + "name: " + name + ", " + "birthDate: " + birthDate + " }";
   }
+   
+
 }
 
 class Empleados {
@@ -39,9 +42,11 @@ class Empleados {
     System.out.println();
 
     List<Empleado> lista = Arrays.asList(emp);
-    for (Empleado empleado : lista) {
-      System.out.println(empleado);
+    for (Empleado x : lista) {
+      System.out.println(x);
     }
+    List<Empleado> lista2 = new ArrayList<>();
+    lista2.add(new Empleado(4, "Pedro", LocalDate.parse("2012-01-20")));
 
   }
 }

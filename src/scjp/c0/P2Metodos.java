@@ -13,11 +13,11 @@ public class P2Metodos {
 
   public static int esPositivoNegativo(int x) {
     int r = 0;
-    r = x < 0 ? -1 : 1;
+    r = x < 0 ? -1 : 1;   // operador ternario
     return r;
   }
 
-  public static void pn0(int x) {
+  public static void pn0(int x) {  // procedimiento
     if (x > 0) {
       System.out.println("El valor de " + x + " es positivo");
     } else if (x < 0) {
@@ -27,7 +27,7 @@ public class P2Metodos {
     }
   }
 
-  public static int pnn(int x) {
+  public static int pnn(int x) {   // funcion
     if (x > 0) {
       return 1;
     } else if (x < 0) {
