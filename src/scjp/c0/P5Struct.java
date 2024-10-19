@@ -15,11 +15,10 @@ class Empleado {
     this.name = name;
     birthDate = nacimiento;
   }
-
+  
   public String toString() {
     return "{ " + "id: " + id + ", " + "name: " + name + ", " + "birthDate: " + birthDate + " }";
   }
-   
 
 }
 
@@ -36,8 +35,8 @@ class Empleados {
     emp[1] = new Empleado(2, "Maria", LocalDate.parse("2012-01-20"));
     emp[2] = new Empleado(3, "Jose", LocalDate.parse("2012-01-20"));
 
-    for (Empleado empleado : emp) {
-      System.out.println(empleado);
+    for (Empleado elemento : emp) {
+      System.out.println(elemento);
     }
     System.out.println();
 

@@ -13,7 +13,7 @@ interface Bounceable {
 }
 
 interface Foo {
-  int BAR = 42;
+  public static final int BAR = 42;
 
   void go();
 }
@@ -21,7 +21,7 @@ interface Foo {
 class Zap implements Foo {
 
   public void go() {
-    //BAR = 27;  // No puedes cambiar el valor de una constante
+    // BAR = 27;  // No puedes cambiar el valor de una constante
     System.out.println(BAR);
   }
 }

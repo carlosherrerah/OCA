@@ -11,7 +11,7 @@ class Y extends X {
   }
 }
 
-public class Casting {  // Chrome
+public class P5Casting {  // Chrome
   public static void main(String[] args) {
     X x1 = new X();
 

@@ -6,12 +6,11 @@ interface I1 {
 
 interface I2 { 
   default int doStuff() {  return 2; }
-
 }
 
-
-public class MultiInterface implements I1, I2 {
+public class P6MultiInterface implements I1, I2 {
   
+  //Poner en comentarios para ver el error
   public int doStuff() {  // public 
     return 3;
   }
@@ -21,8 +20,8 @@ public class MultiInterface implements I1, I2 {
   }
 
   public static void main(String[] args) {
-    new MultiInterface().go();    // 3
-    MultiInterface a = new MultiInterface();
+    new P6MultiInterface().go();    // 3
+    P6MultiInterface a = new P6MultiInterface();
     System.out.println(a.doStuff());   // 3
 
   }

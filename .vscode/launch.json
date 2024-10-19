@@ -6,6 +6,125 @@
   "configurations": [
     {
       "type": "java",
+      "name": "House",
+      "request": "launch",
+      "mainClass": "scjp.c2.House",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P10Clase",
+      "request": "launch",
+      "mainClass": "scjp.c2.P10Clase",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Perro",
+      "request": "launch",
+      "mainClass": "personal.Perro",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Perro",
+      "request": "launch",
+      "mainClass": "scjp.Perro",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Perro",
+      "request": "launch",
+      "mainClass": "scjp.c2.Perro",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P10Interface",
+      "request": "launch",
+      "mainClass": "scjp.c2.P10Interface",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Frog",
+      "request": "launch",
+      "mainClass": "scjp.c2.Frog",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3Overriding",
+      "request": "launch",
+      "mainClass": "scjp.c2.P3Overriding",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Init",
+      "request": "launch",
+      "mainClass": "scjp.c2.Init",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P9InitBlock",
+      "request": "launch",
+      "mainClass": "scjp.c2.P9InitBlock",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Errores",
+      "request": "launch",
+      "mainClass": "scjp.c2.Errores",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P2Herencia",
+      "request": "launch",
+      "mainClass": "scjp.c2.P2Herencia",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P5MultiInterface",
+      "request": "launch",
+      "mainClass": "scjp.c2.P5MultiInterface",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P1Constructores",
+      "request": "launch",
+      "mainClass": "scjp.c1.P1Constructores",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "P4InstanciaDe",
+      "request": "launch",
+      "mainClass": "scjp.c2.P4InstanciaDe",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "Equals",
+      "request": "launch",
+      "mainClass": "scjp.c0.Equals",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
+      "name": "InstanciaDe",
+      "request": "launch",
+      "mainClass": "scjp.c3.InstanciaDe",
+      "projectName": "OCA_301f841d"
+    },
+    {
+      "type": "java",
       "name": "Child",
       "request": "launch",
       "mainClass": "scjp.c1.p2Accesos.d2.Child",

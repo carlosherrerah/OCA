@@ -1,0 +1,25 @@
+12. Given:
+
+3. class Building {
+4. Building() { System.out.print("b "); }
+5. Building(String name) {
+6. this(); System.out.print("bn " + name);
+7. }
+8. }
+9. public class House extends Building {
+10. House() { System.out.print("h "); }
+11. House(String name) {
+12. this(); System.out.print("hn " + name);
+13. }
+14. public static void main(String[] args) { new House("x "); }
+15. }
+
+What is the result?
+A. h hn x
+B. hn x h
+C. b h hn x
+D. b hn x h
+E. bn x h hn x
+F. b bn x h hn x
+G. bn x b h hn x
+H. Compilation fails

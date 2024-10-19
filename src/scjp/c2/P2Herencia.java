@@ -2,35 +2,75 @@ package scjp.c2;
 
 class Animal {
   String especie = "ET";
-  public void eat() {
+
+  protected void eat() {
     System.out.println("Generic Animal Eating Generically");
   }
 
   private void drink() {
     System.out.println("Animal drinking");
   }
+
 }
 
 class Horse extends Animal {
   String especie = "Equino";
-  public /* private */ void eat() { // whoa! - it's private!
+  
+  public /*private*/ void eat() { // whoa! - it's private!
                                     // Cannot reduce the visibility of the inherited method from Animal
-    System.out.println("Horse eating hay, oats, " + "and horse treats");
+    System.out.println("Horse eating oats " + "and horse treats");
   }
 
   public void neigh() {
+    System.out.println("Horse neighing: relincha");
   }
+
 }
 
 public class P2Herencia { // TestAnimals
+
+  public void referencia(Animal a ) {
+    System.out.println("Animal");
+  }
+
+  public void referencia(Horse h ) {
+    System.out.println("Hourse");
+  }
+
+
   public static void main(String[] args) {
     Animal a = new Animal();
-    Animal b = new Horse(); // Animal ref, but a Horse object
-    Horse c = new Horse();
+    Animal ah = new Horse(); // Animal ref, but a Horse object
+    Horse h = new Horse();
+    System.out.println(ah.especie);
+    ah.eat();
+
     a.eat(); // Runs the Animal version of eat()
-    b.eat(); // Runs the Horse version of eat()
-    System.out.println(b.especie);
-    System.out.println(c.especie);
+    ah.eat(); // Runs the Horse version of eat()
+    h.neigh();
+    System.out.println(ah.especie); // Prints "ET"
+    System.out.println(h.especie); // Prints "Equino"
+
+    P2Herencia p = new P2Herencia();
+    System.out.println("Referencia!");
+    p.referencia(ah); 
   
+    System.out.println("Casting: -----------------");
+    System.out.println(h.especie);
+    Animal _ah = h;
+    System.out.println(_ah.especie); // Prints "ET"
+    _ah.eat(); // Runs the Horse version of eat()
+    
+    //Horse _ha = a;          // Error de compilacion: Type mismatch: cannot convert from Animal to Horse
+    //Horse __ha = (Horse) a;   // Error de ejecucion:   ClassCastException Animal cannot be cast Horse
+
+    Horse _h = (Horse) ah;
+    System.out.println(_h.especie); // Prints "Equino"
+    _h.eat(); // Runs the Horse version of eat()
+    _h.neigh();
+
+    ((Horse)ah).neigh(); 
+
+
   }
 }
