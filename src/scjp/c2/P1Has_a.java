@@ -14,6 +14,11 @@ class Account {
   double getBalance() {
     return balance;
   }
+
+  void setBalance(double balance) {
+    this.balance = balance;
+  }
+
   
 }
 
@@ -29,6 +34,7 @@ class Account {
       this.salary = salary;
       this.account = account;
     }
+    
     
 }
 

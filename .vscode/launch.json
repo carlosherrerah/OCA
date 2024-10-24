@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Euler",
+      "request": "launch",
+      "mainClass": "Euler",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P5Casting",
+      "request": "launch",
+      "mainClass": "scjp.c2.P5Casting",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3InstanciaDe",
+      "request": "launch",
+      "mainClass": "scjp.c2.P3InstanciaDe",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Casting",
+      "request": "launch",
+      "mainClass": "scjp.c0.Casting",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2Herencia",
+      "request": "launch",
+      "mainClass": "scjp.c2.P2Herencia",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P1Has_a",
+      "request": "launch",
+      "mainClass": "scjp.c2.P1Has_a",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "House",
       "request": "launch",
       "mainClass": "scjp.c2.House",

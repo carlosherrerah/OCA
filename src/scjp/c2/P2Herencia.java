@@ -16,7 +16,7 @@ class Animal {
 class Horse extends Animal {
   String especie = "Equino";
   
-  public /*private*/ void eat() { // whoa! - it's private!
+  protected /*private*/ void eat() { // whoa! - it's private!
                                     // Cannot reduce the visibility of the inherited method from Animal
     System.out.println("Horse eating oats " + "and horse treats");
   }
@@ -29,12 +29,12 @@ class Horse extends Animal {
 
 public class P2Herencia { // TestAnimals
 
-  public void referencia(Animal a ) {
-    System.out.println("Animal");
+  public String referencia(Animal a ) { 
+    return "Animal";
   }
 
-  public void referencia(Horse h ) {
-    System.out.println("Hourse");
+  public String referencia(Horse h ) {
+    return "Hourse";
   }
 
 
@@ -53,7 +53,9 @@ public class P2Herencia { // TestAnimals
 
     P2Herencia p = new P2Herencia();
     System.out.println("Referencia!");
-    p.referencia(ah); 
+    p.referencia(a);  // Animal
+    p.referencia(h);  // Hourse
+    System.out.println( "ah: " + p.referencia(ah)); 
   
     System.out.println("Casting: -----------------");
     System.out.println(h.especie);
@@ -62,7 +64,7 @@ public class P2Herencia { // TestAnimals
     _ah.eat(); // Runs the Horse version of eat()
     
     //Horse _ha = a;          // Error de compilacion: Type mismatch: cannot convert from Animal to Horse
-    //Horse __ha = (Horse) a;   // Error de ejecucion:   ClassCastException Animal cannot be cast Horse
+    //Horse __ha = (Horse) a; // Error de ejecucion:   ClassCastException Animal cannot be cast Horse
 
     Horse _h = (Horse) ah;
     System.out.println(_h.especie); // Prints "Equino"

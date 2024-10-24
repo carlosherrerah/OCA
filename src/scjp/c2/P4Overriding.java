@@ -3,9 +3,8 @@ package scjp.c2;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-
-class X {}
-class Y extends X {}
+class X { }
+class Y extends X { }
 
 class A {
   protected X /*int*/ getValue() throws IOException { return null; }            // overridden

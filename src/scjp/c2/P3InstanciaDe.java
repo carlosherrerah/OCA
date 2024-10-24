@@ -1,20 +1,17 @@
 package scjp.c2;
 
-interface Flyer {
-}
+interface Flyer { }
 
-class Bird implements Flyer {
-}
+class Bird implements Flyer { }
 
-class Eagle extends Bird {
-}
+class Eagle extends Bird { }
 
-class Bat {
-}
+class Bat { }
 
 public class P3InstanciaDe {
   public static void main(String[] args) {
 
+    int x = 10;
     String s1 = new String("Hello");
     String s2 = new String("Hello");
     String s3 = "Hello";
@@ -24,6 +21,10 @@ public class P3InstanciaDe {
     System.out.println(s1 == s3);       // false
     System.out.println(s1.equals(s3));  // true
     System.out.println(s3 == s4);       // true
+    System.out.println(s3);
+    s3 = s3 + " World";
+    System.out.println(s3);
+    System.out.println(s4);            
 
     Flyer f = new Eagle();
     Bird b = new Eagle();
@@ -49,6 +50,10 @@ public class P3InstanciaDe {
       System.out.println("m is a Flyer"); // no
     if (m instanceof Object)
       System.out.println("m is a Object"); // yes
+    if(s1 instanceof Object)
+      System.out.println("s1 is a Object"); // yes
+    //if(x instanceof Object)
+      System.out.println("x is a Object"); // no
 
   }
 

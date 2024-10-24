@@ -19,9 +19,12 @@ public class P5Casting {  // Chrome
 
     Y y1 = new Y();
 
-    // x2 = y1; // ok
-    // y1 = (Y) x2; // ok
-    // 1 = (X) y1; // ok
+    x2 = y1; // ok
+    y1 = (Y) x2; // ok
+    
+    x1 = (X) y1; // x1 = y1; // ok    
+
+
     // y1 = (Y) x1; // X cannot be cast to Y
 
     ((Y) x2).do2();
@@ -29,6 +32,7 @@ public class P5Casting {  // Chrome
 
     ((Y) x2).do1();
     x2.do1();
-
+    //x2.do2(); // no permitido
+  
   }
 }

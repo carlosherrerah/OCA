@@ -1,9 +1,15 @@
 package scjp.c2;
 
 class Animalito {
+  String especie;
+
+  //static String especie; // Duplicate field
+
   static String estatico() {
-    return "Animalito";
+    return "Estatico Animalito ";
   }
+
+  // static String comer() { } // Static and not static methods are not allowed at the same time.
 
   String comer() {
     return "De todo";
@@ -11,8 +17,8 @@ class Animalito {
 }
 
 class Perro extends Animalito {
-  static String estatico() { // static methods can’t be overridden!
-    return "Perro ESTATICO";
+  static String estatico() { // This is a static method, not an override
+    return "Estatico Perro ";
   }
 
   String comer() {
@@ -25,17 +31,18 @@ class Perro extends Animalito {
 
   public static void main(String[] args) {
     Animalito a = new Animalito();
-    Animalito ap = new Perro();
     Perro p = new Perro();
+    Animalito ap = new Perro();
 
     Animalito[] Animal = { new Animalito(), new Perro() };
 
-    System.out.println(Perro.estatico()); // Perro
-    System.out.println(Animalito.estatico()); // Animalito
-    System.out.println(a.estatico()); // Animalito
-    System.out.println(ap.estatico()); // Animalito
-    System.out.println(p.estatico()); // Perro
-    System.out.println(((Animalito) p).estatico()); // Animalito
+    System.out.println("Animal: " + Animalito.estatico());
+    System.out.println("Perro:  " + Perro.estatico());
+    System.out.println("a:      " + a.estatico()); 
+    System.out.println("p:      " + p.estatico());
+    System.out.println("ap:     " + ap.estatico()); // Calls the static method on the Animalito class
+    System.out.println("");
+    System.out.println(((Animalito) p).estatico());
     System.out.println(p.comer()); // Calls the comer method on the p object
     System.out.println(p.comerOrigen()); // Calls the comer method on the super object
   }
