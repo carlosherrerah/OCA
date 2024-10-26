@@ -1,6 +1,6 @@
-package scjp.c0;
+package scjp.c3;
 
-public class P3Sistema {
+public class P1Sistema {
 
   public static void main(String[] args) {
     int n = 20;

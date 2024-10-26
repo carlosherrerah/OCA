@@ -1,11 +1,23 @@
-package scjp.c0;
+package scjp.c3;
 
-public class Casting {
+public class P2_2Casting {
   public static void main(String[] args) {
     double a;
     a =  7 / (double) 2;
         System.out.println("a: " + a);
 
+    // 0 1 2 3 . . 127  128  129  130 . . 254 255    256  257  258  259 . .  510 511 512 513 514
+    // 0 1 2 3 . . 127 -128 -127 -126 . .  -2  -1      0    1    2    3 . .   -2  -1   0   1   2
+    byte c = (byte) (128);  // -128 
+
+    float pi = 3.1416f;
+    int entera = (int) pi;
+    float decimal = pi - entera;
+
+    byte b = 127;
+    b += 7; // b = (byte) (b + 7);  
+    // b = b + 7; // Error de compilación
+ 
 
     /*
     // Casting

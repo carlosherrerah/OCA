@@ -1,38 +1,37 @@
 package scjp.c2;
 
-// 6 pag 240
-class X {
+class Persona {
   void do1() {
   }
 }
 
-class Y extends X {
+class Maestro extends Persona {
   void do2() {
   }
 }
 
 public class P5Casting {  // Chrome
   public static void main(String[] args) {
-    X x1 = new X();
+    Persona p  = new Persona();
+    Maestro m  = new Maestro();
+    Persona pm = new Maestro();
 
-    X x2 = new Y();
-
-    Y y1 = new Y();
-
-    x2 = y1; // ok
-    y1 = (Y) x2; // ok
+    //pm = m; 
+    //m = (Maestro) pm; // no se necesita cast
     
-    x1 = (X) y1; // x1 = y1; // ok    
+    //p = (Persona) maestro; // no se necesita cast   p=maestro
 
 
-    // y1 = (Y) x1; // X cannot be cast to Y
+    // m = (Maestro) p; // Persona cannot be cast to  Maestro
 
-    ((Y) x2).do2();
-    ((X) y1).do1();
+    ((Maestro)pm).do2(); 
 
-    ((Y) x2).do1();
-    x2.do1();
-    //x2.do2(); // no permitido
-  
+    ((Persona)m).do1();
+
+    ((Maestro)pm).do1();
+    pm.do1();
+    // pm.do2(); // no permitido  
+
+    System.out.println(". . . Hecho");
   }
 }

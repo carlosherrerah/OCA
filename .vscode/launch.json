@@ -6,6 +6,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P5Argumentos",
+      "request": "launch",
+      "mainClass": "scjp.c3.P5Argumentos",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P4Overriding",
+      "request": "launch",
+      "mainClass": "scjp.c2.P4Overriding",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P6MultiInterface",
+      "request": "launch",
+      "mainClass": "scjp.c2.P6MultiInterface",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P1Sistema",
+      "request": "launch",
+      "mainClass": "scjp.c3.P1Sistema",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3Scope",
+      "request": "launch",
+      "mainClass": "scjp.c3.P3Scope",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P4Inicializacion",
+      "request": "launch",
+      "mainClass": "scjp.c3.P4Inicializacion",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2_3Wrapper",
+      "request": "launch",
+      "mainClass": "scjp.c3.P2_3Wrapper",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3Casting",
+      "request": "launch",
+      "mainClass": "scjp.c3.P3Casting",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2Primitivos",
+      "request": "launch",
+      "mainClass": "scjp.c3.P2Primitivos",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Character",
+      "request": "launch",
+      "mainClass": "scjp.c3.Character",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Prueba",
+      "request": "launch",
+      "mainClass": "Prueba",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "Euler",
       "request": "launch",
       "mainClass": "Euler",
