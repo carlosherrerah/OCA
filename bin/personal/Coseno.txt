@@ -1,0 +1,37 @@
+package personal;
+
+// Clase para calcular el seno y coseno de un ángulo en grados usando la serie de Taylor
+public class Coseno {
+
+  // Método para convertir grados a radianes
+  public static double g2r(double grados) {
+    return grados * Math.PI / 180;
+  }
+
+  // Método para calcular el factorial
+  public static long factorial(int n) {
+    long fact = 1;
+    for (int i = 1; i <= n; i++) {
+      fact *= i;
+    }
+    return fact;
+  }
+  
+  // Método para calcular el coseno usando la serie de Taylor, x en radianes
+  public static double cosenoTaylor(double x, int terms) {
+    double sum = 0;
+    for (int n = 0; n < terms; n++) {
+      double term = Math.pow(-1, n) * Math.pow(x, 2 * n) / factorial(2 * n);
+      sum += term;
+    }
+    return sum;
+  }
+
+  public static void main(String[] args) {
+    double x = g2r(30); // Convertir 30 grados a radianes usando el método personalizado
+    int terms = 3; // Número de términos en la serie de Taylor
+
+    double cosenoResult = cosenoTaylor(x, terms);
+    System.out.println("El coseno de 30 grados es: " + cosenoResult);
+  }
+}

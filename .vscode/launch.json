@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P6CheckGC",
+      "request": "launch",
+      "mainClass": "scjp.c3.P6CheckGC",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P6GarbageC",
+      "request": "launch",
+      "mainClass": "scjp.c3.P6GarbageC",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Foo",
+      "request": "launch",
+      "mainClass": "scjp.c3.Foo",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Euler",
+      "request": "launch",
+      "mainClass": "personal.Euler",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Acumulador",
+      "request": "launch",
+      "mainClass": "personal.Acumulador",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Coseno",
+      "request": "launch",
+      "mainClass": "personal.Coseno",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Seno",
+      "request": "launch",
+      "mainClass": "personal.Seno",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2_2Casting",
+      "request": "launch",
+      "mainClass": "scjp.c3.P2_2Casting",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2_1Primitivos",
+      "request": "launch",
+      "mainClass": "scjp.c3.P2_1Primitivos",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Init",
+      "request": "launch",
+      "mainClass": "scjp.c2.Init",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P5Argumentos",
       "request": "launch",
       "mainClass": "scjp.c3.P5Argumentos",

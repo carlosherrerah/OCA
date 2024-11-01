@@ -13,7 +13,7 @@ class Init {
 
   public static void main(String[] args) {
     new Init();
-    new Init(7);
+    // new Init(7);
   }
   
 }

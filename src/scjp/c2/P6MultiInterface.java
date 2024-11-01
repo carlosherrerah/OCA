@@ -9,7 +9,6 @@ interface I2 {
 }
 
 public class P6MultiInterface implements I1, I2 {
-  
   //Poner en comentarios para ver el error
   public int doStuff() {  // public 
     return 3;

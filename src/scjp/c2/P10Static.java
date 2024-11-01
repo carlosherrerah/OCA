@@ -16,6 +16,6 @@ class Frog {
     System.out.println("Frog count is now " + frogCount);
     System.out.println("Frog count is now " + f.frogCount);
     System.out.println("Frog count is now " + Frog.frogCount);
-    //System.out.println("x is now " + x);
+    //System.out.println("x is now " + x); 
   }
 }

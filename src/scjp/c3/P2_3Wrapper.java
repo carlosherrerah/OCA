@@ -6,7 +6,7 @@ public class P2_3Wrapper {
 
     // Autoboxing
     Integer I1 = 127;
-    Integer I2 = new Integer(127);
+    Integer I2 = new Integer("127");
     System.out.println(I1 == I2);
     System.out.println(I1.equals(I2));
 

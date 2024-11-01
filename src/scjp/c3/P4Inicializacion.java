@@ -27,15 +27,15 @@ public class P4Inicializacion {
 
     P4Inicializacion p = new P4Inicializacion();
     int year;
-    // /* if (args[0] != null) */{
-    //  year = 2010;
-    // }
-    // System.out.println(year); // No compila
+    /* if (args[0] != null) */ {
+       year = 2010;
+    }
+    System.out.println(year); // No compila
     System.out.println(p.year);
     System.out.println(p.name);
     p.showYear();
-    // showYear(); // No compila
-    // p.name.toUpperCase(); // NullPointerException
+    //showYear(); // No compila
+    p.name.toUpperCase(); // NullPointerException
     String s = p.name;
     if (s != null) {
       String t = s.toLowerCase();

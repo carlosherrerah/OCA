@@ -48,7 +48,7 @@ public class P2_1Primitivos {
     long m = 1000;
     m = 1000L;
 
-    float f = 1_0.001_002f;   // debe llevar la f al final
+    float f = 1_0.001_002F;   // debe llevar la f al final
     double d = 3.1416;
     d = 3.1416d;
     d = 314.16e-2;
