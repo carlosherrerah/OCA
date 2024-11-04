@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P7Precedencia",
+      "request": "launch",
+      "mainClass": "scjp.c4.P7Precedencia",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P5Ternary",
+      "request": "launch",
+      "mainClass": "scjp.c4.P5Ternary",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P4Aritmetica",
+      "request": "launch",
+      "mainClass": "scjp.c4.P4Aritmetica",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3instanceof",
+      "request": "launch",
+      "mainClass": "scjp.c4.P3instanceof",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "CambiarColorBoton",
+      "request": "launch",
+      "mainClass": "personal.CambiarColorBoton",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "EjemploJavaFX",
+      "request": "launch",
+      "mainClass": "scjp.EjemploJavaFX",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2Relacionales",
+      "request": "launch",
+      "mainClass": "scjp.c4.P2Relacionales",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P1Comp2",
+      "request": "launch",
+      "mainClass": "scjp.c4.P1Comp2",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P1Operadores",
+      "request": "launch",
+      "mainClass": "scjp.c4.P1Operadores",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P6CheckGC",
       "request": "launch",
       "mainClass": "scjp.c3.P6CheckGC",
