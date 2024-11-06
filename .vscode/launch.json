@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P5CommonException",
+      "request": "launch",
+      "mainClass": "scjp.c5.P5CommonException",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3_1TryCatch",
+      "request": "launch",
+      "mainClass": "scjp.c5.P3_1TryCatch",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3_3Exception",
+      "request": "launch",
+      "mainClass": "scjp.c5.P3_3Exception",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3_2ReadData",
+      "request": "launch",
+      "mainClass": "scjp.c5.P3_2ReadData",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3TryCatch",
+      "request": "launch",
+      "mainClass": "scjp.c5.P3TryCatch",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2Loop",
+      "request": "launch",
+      "mainClass": "scjp.c5.P2Loop",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P1Seleccion",
+      "request": "launch",
+      "mainClass": "scjp.c5.P1Seleccion",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P7Precedencia",
       "request": "launch",
       "mainClass": "scjp.c4.P7Precedencia",
