@@ -13,6 +13,7 @@ public class P2_2Casting {
     float pi = 3.1416f;
     int entera = (int) pi;
     float decimal = pi - entera;
+    c = (byte) entera;
 
     byte b = 127;
     b += 7; // b = (byte) (b + 7);  
@@ -30,6 +31,11 @@ public class P2_2Casting {
     long l2 = 10;
     int i2 = (int) l2;
     System.out.println("Narrowing: " + i2);
+
+    final int[] array = { 1, 2, 3 };
+    // array = new int[] { 4, 5, 6 }; // Error de compilación
+    array[0] = 4;                     // OK, si se permite aunque sea final
+
 /*    
     // Casting Objects
     // Upcasting

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P6_2Garbage",
+      "request": "launch",
+      "mainClass": "scjp.c3.P6_2Garbage",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P5CommonException",
       "request": "launch",
       "mainClass": "scjp.c5.P5CommonException",

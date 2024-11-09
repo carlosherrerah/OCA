@@ -13,16 +13,17 @@ public class P7Precedencia {
     boolean flag2 = false;
     boolean flag3 = true;
     boolean flag4 = false;
-    
+
     System.out.println(!flag1 == flag2 != flag3 == !flag4); // Line n1 false
-    System.out.println(flag1 = flag2 != flag3 == !flag4);   // Line n2 true
+    System.out.println(flag1 = flag2 != flag3 == !flag4); // Line n2 true
 
     System.out.println("-----");
     boolean flag = false;
     System.out.println((flag = true) | (flag = false) || (flag = true));
     System.out.println(flag);
     // bitwise inclusive OR | has higher precedence over logical OR ||
-    // || is a short-circuit operator and as left operand evaluates to true, hence right operand is not evaluated.
+    // || is a short-circuit operator and as left operand evaluates to true, hence
+    // right operand is not evaluated.
 
     System.out.println("-----");
 
@@ -56,8 +57,27 @@ public class P7Precedencia {
     // 3. Multiplicación: y * z = 2 * 3 = 6
     // 4. Resta: x - 6 = 1 - 6 = -5
 
-    System.out.println("Resultado2: " + result2); // -5    
+    System.out.println("Resultado2: " + result2); // -5
 
+    // Pregunta 11
+    boolean b1 = false;
+    boolean b2;
+    x = 2; // 
+    y = 5; // 
+    b1 = 2 - 12 / 4 > 5 + -7 && b1 != y++ > 5 == 7 % 4 > ++x | b1 == true;
+
+    System.out.println("b1 : " + b1);
+    System.out.println("x  : " + x);
+    System.out.println("y  : " + y);
+
+    // b1 = true, x = 3, y = 6
+    b2 = (2 - 12 / 4 > 5 + -7) && (b1 != y++ > 5) == (7 % 4 > ++x) | (b1 == true);
+
+    System.out.println("b1 : " + b1);
+    System.out.println("b2 : " + b2);
+    System.out.println("x  : " + x);
+    System.out.println("y  : " + y);
+    // b1 = true,  b2 = true,  x = 4, y = 7
 
   }
 }

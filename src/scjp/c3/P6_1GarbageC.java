@@ -1,7 +1,7 @@
 package scjp.c3;
 import java.util.Date;
 
-public class P6GarbageC {
+public class P6_1GarbageC {
     public static void doComplicatedStuff() {}
   public static void main(String[] args) {
     Date d = getDate();
