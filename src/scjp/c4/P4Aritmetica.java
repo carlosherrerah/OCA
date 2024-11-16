@@ -35,7 +35,7 @@ public class P4Aritmetica {
 
     int x = 2;
     int y = 3;
-    if ((y == ++x) || (x < ++y)) { // cambia el operador || por |
+    if ((y == ++x) | (x < ++y)) { // cambia el operador || por |
       System.out.println("x = " + x + " y = " + y);
     }
 

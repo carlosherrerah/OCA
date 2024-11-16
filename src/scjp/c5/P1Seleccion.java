@@ -5,7 +5,7 @@ public class P1Seleccion {
   public static void main(String[] args) {
     final int a = 1;
     final int b = 2;
-    // final int b; b = 2; // compiler error
+    //final int b; b = 2; // compiler error
 
     int x = 0;
     switch (x) {

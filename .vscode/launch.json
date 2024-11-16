@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P4CommonException",
+      "request": "launch",
+      "mainClass": "scjp.c5.P4CommonException",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P2Calendar",
+      "request": "launch",
+      "mainClass": "scjp.c6.P2Calendar",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Generico",
+      "request": "launch",
+      "mainClass": "personal.Generico",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Arreglos_Stream",
+      "request": "launch",
+      "mainClass": "personal.Arreglos_Stream",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "EjemploJavaFX",
+      "request": "launch",
+      "mainClass": "personal.EjemploJavaFX",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "Arreglos",
+      "request": "launch",
+      "mainClass": "personal.Arreglos",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P1StringBuilder",
+      "request": "launch",
+      "mainClass": "scjp.c6.P1StringBuilder",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P1String",
+      "request": "launch",
+      "mainClass": "scjp.c6.P1String",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P6Logicos",
+      "request": "launch",
+      "mainClass": "scjp.c4.P6Logicos",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P6_1GarbageC",
+      "request": "launch",
+      "mainClass": "scjp.c3.P6_1GarbageC",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P6_2Garbage",
       "request": "launch",
       "mainClass": "scjp.c3.P6_2Garbage",

@@ -24,7 +24,7 @@ class B extends A {
   }
 }
 
-public class P3instanceof {
+public class P3instanceOfC4 {
 
   public static void main(String[] args) {
     // instanceof

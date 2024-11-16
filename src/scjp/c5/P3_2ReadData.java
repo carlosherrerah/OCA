@@ -22,7 +22,7 @@ public class P3_2ReadData {
     List<Dato> leidos = new ArrayList<>();
     Dato dato = new Dato();
 
-    String filePath = "src/scjp/c5/Pacientes.csv"; // Reemplaza con la ruta de tu archivo CSV
+    String filePath = "src/scjp/c5/Pacientes    .csv"; // Reemplaza con la ruta de tu archivo CSV
     String line;
     try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
       line = br.readLine(); // La primera línea es el encabezado
@@ -53,6 +53,7 @@ public class P3_2ReadData {
       System.err.println(e.toString());
       e.printStackTrace();
     }
+    
     for (Dato elemento : leidos) {
       System.out.println(elemento.id + " : " + elemento.apellidos + " : " + elemento.fecha);
     }

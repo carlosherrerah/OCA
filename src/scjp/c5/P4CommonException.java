@@ -18,7 +18,7 @@ public class P4CommonException {
 
   public static void main(String[] args) {
     // go(); // StackOverflowError
-    // System.out.println(s.length()); // NullPointerException
+    System.out.println(s.length()); // NullPointerException
 
     String a = "123G";
     // int b = Integer.parseInt(a); // NumberFormatException

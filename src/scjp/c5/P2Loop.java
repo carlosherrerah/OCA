@@ -40,7 +40,9 @@ public class P2Loop {
 
     doStuff();
 
-    int[][] twoDee = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+    int[][] twoDee = { { 1, 2, 3 },
+                       { 4, 5, 6 }, 
+                       { 7, 8, 9 } };
     for (int[] outer : twoDee) {
       for (int inner : outer) {
         System.out.print(inner + " ");
