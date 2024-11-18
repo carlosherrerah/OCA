@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P6_1Lambdas",
+      "request": "launch",
+      "mainClass": "scjp.c6.P6_1Lambdas",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P6_2TestDogs",
+      "request": "launch",
+      "mainClass": "scjp.c6.P6_2TestDogs",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P4_2ArrayList",
+      "request": "launch",
+      "mainClass": "scjp.c6.P4_2ArrayList",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P4_1Wrapper",
+      "request": "launch",
+      "mainClass": "scjp.c6.P4_1Wrapper",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P4ArrayList",
+      "request": "launch",
+      "mainClass": "scjp.c6.P4ArrayList",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3Arrays",
+      "request": "launch",
+      "mainClass": "scjp.c6.P3Arrays",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P4CommonException",
       "request": "launch",
       "mainClass": "scjp.c5.P4CommonException",
