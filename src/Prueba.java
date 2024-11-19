@@ -3,6 +3,6 @@ public class Prueba {
     String x = "java";
     String y = "java";
     System.out.println(x == y); // true
-    
+    System.out.println(true);
   }  
 }

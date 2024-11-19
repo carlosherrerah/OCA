@@ -5,9 +5,9 @@ public class P1Seleccion {
   public static void main(String[] args) {
     final int a = 1;
     final int b = 2;
-    //final int b; b = 2; // compiler error
+    // final int b; b = 2; // compiler error
 
-    int x = 0;
+    int x = 0; // expresion
     switch (x) {
       case a: // ok
       case b: // compiler error
@@ -39,6 +39,32 @@ public class P1Seleccion {
         System.out.println("3");
       case 4:
         System.out.println("4");
+    }
+
+    System.out.println("----");
+    int y = 2;
+    x = 7;
+    switch (x) { // expresion
+      default:
+        System.out.println("default");
+      case 1: // constante
+        System.out.println("1");
+        break;
+      case 2: // constante
+        System.out.println("2");
+        break;
+    }
+
+    String s = "bob";
+    String[] sa = { "bob", "fred", "jim" };
+    final String s2 = "bob";
+    StringBuilder s3 = new StringBuilder("bob");
+    // switch (sa[0]) { // ok
+    // switch (s3.toString()) { // ok
+    switch ("b" + "ob") { // ok
+      case "jim": // ok
+      case s2: // ok
+      // case s: // compiler error
     }
 
   }

@@ -18,7 +18,7 @@ public class P3_2ReadData {
   private static final String PATRON = "yyyy-MM-dd";
   private static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern(PATRON);
 
-  public static void FileReader() {
+  public static void FileReader() /* throws IOException */ {
     List<Dato> leidos = new ArrayList<>();
     Dato dato = new Dato();
 
@@ -48,11 +48,11 @@ public class P3_2ReadData {
          */
         System.out.println();
       }
-    } catch (IOException e) {
+    }  catch (IOException e) {
       System.err.println("IO Error");
       System.err.println(e.toString());
       e.printStackTrace();
-    }
+    } 
     
     for (Dato elemento : leidos) {
       System.out.println(elemento.id + " : " + elemento.apellidos + " : " + elemento.fecha);
@@ -60,7 +60,7 @@ public class P3_2ReadData {
 
   }
 
-  public static void main(String args[]) {
+  public static void main(String args[]) /* throws IOException */ {
     FileReader();
     System.out.println(". . . Hecho!");
   }

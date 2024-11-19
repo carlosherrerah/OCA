@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P4_3methodException",
+      "request": "launch",
+      "mainClass": "scjp.c5.P4_3methodException",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P4_2mainException",
+      "request": "launch",
+      "mainClass": "scjp.c5.P4_2mainException",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P6_1Lambdas",
       "request": "launch",
       "mainClass": "scjp.c6.P6_1Lambdas",

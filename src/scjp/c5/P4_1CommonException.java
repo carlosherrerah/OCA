@@ -1,7 +1,9 @@
 package scjp.c5;
 
-public class P4CommonException {
+public class P4_1CommonException {
   static String s;
+  static int x;
+  static Integer y;
 
   static void go() { // recursion gone bad
     go();
@@ -24,5 +26,10 @@ public class P4CommonException {
     // int b = Integer.parseInt(a); // NumberFormatException
     int b = parseInt(a); // Programmatic Exceptions
     System.out.println(b);
+
+    
+    System.out.println(x); // 0
+    System.out.println(y); // null
+
   }
 }

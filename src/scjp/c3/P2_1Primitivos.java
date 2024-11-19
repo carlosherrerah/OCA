@@ -24,6 +24,7 @@ public class P2_1Primitivos {
 
     char A = 'A';
     char _A = 65;
+    char __A = 0x41;
     char a = 'a';
     char _a = 97;
     char unicode_A = '\u0041';

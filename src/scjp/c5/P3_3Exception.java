@@ -12,28 +12,31 @@ public class P3_3Exception {
       // int a = 1/0;
       throw new RuntimeException();
     } finally {
-      System.out.println("finally");
+      System.out.println("finally");  // se compromete a ejecutar aunque exsita otra excepción
       // throw new Error();
     }
   }
 
-  static void badMethod() /* throws Exception */  { // No need to declare an Error
+  static void badMethod()  /* throws Exception */   { // No need to declare an Error
     try {
       doStuff();
     } catch (Exception e) {
       // TODO: handle exception
-      System.out.println("doStuff Exception");
+      System.out.println("badMethod Exception");
     }
-    // doStuff();
+
+    //doStuff(); // Si cacha la excepción, no se propaga
 
   }
 
-  static void doStuff()  throws Exception  { // No need to declare an Error
+  static void doStuff()  throws Exception  { // 
     try {
       throw new Exception();
     } catch (Exception me) {
-      // throw new Exception(); // We catch it, but then rethrow it
-      throw me;
+      System.out.println("doStuff   Exception");
+      //throw new RuntimeException(); 
+      //throw new Exception(); // throws Exception
+      throw me;                // throws Exception
     }
   }
 

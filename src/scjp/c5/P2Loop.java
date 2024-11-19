@@ -71,6 +71,13 @@ public class P2Loop {
     } // end of outer for loop
     System.out.println("Good-Bye");
 
+    int[] arr = { 1, 2, 3, 4, 5 };
+    for (int i : arr) {
+      System.out.println(i);
+    }
+    int x=0;
+    // for ( x : arr) {       } // the enhanced for must declare its first operand
+
   }
 
 }

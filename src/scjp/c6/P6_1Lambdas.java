@@ -37,6 +37,8 @@ public class P6_1Lambdas {
     m1.go(x -> false); // No match
     m1.go(x -> 7 > 5); // Match
     m1.go(x -> adder(3, 4) == 7); // Match
+    m1.go(x -> { return adder(3, 4) == 7;}); // Match
+
     m1.go(x -> {
       int y = 5;
       return adder(y, 5) > 10;

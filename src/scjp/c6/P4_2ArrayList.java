@@ -37,6 +37,8 @@ public class P4_2ArrayList {
 
     lista1.add(5);
     lista1.add(10);
+    lista1.add(new Integer("15"));
+    //lista1.add("20"); // No es un Integer
     lista1.add(1, 7); // indicando la posicion a insertar
     lista1.add(0, 3);
     System.out.println(lista1);

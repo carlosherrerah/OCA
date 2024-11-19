@@ -27,6 +27,12 @@ public class P3Arrays {
     scores2 = new int[5];
     scores2[0] = 1; // llenado de un array
 
+    char[] c1 = new char[3];
+    char[] c2 = { 'a', 'b', 'c' }; 
+    char[] c3 = new char[] { 'a', 'b', 'c', }; 
+    char[] c4 = { 0x4e, '\u004e', 78 };
+
+
     int[] scores3 = { 1, 2, 3, 4, 5 }; // recommended
     int[] scores4 = new int[] { 1, 2, 3, 4, 5 }; // recommended
 
