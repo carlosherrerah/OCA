@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "P5Encapsulacion",
+      "request": "launch",
+      "mainClass": "scjp.c6.P5Encapsulacion",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3_2ReadCSV",
+      "request": "launch",
+      "mainClass": "scjp.c5.P3_2ReadCSV",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
+      "name": "P3_2WriteCSV",
+      "request": "launch",
+      "mainClass": "scjp.c5.P3_2WriteCSV",
+      "projectName": "OCA_7e2e670"
+    },
+    {
+      "type": "java",
       "name": "P4_3methodException",
       "request": "launch",
       "mainClass": "scjp.c5.P4_3methodException",

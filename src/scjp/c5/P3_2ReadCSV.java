@@ -1,12 +1,10 @@
 package scjp.c5;
 
 import java.io.*;
-import java.sql.Date;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringTokenizer;
 
 class Dato {
   int id;
@@ -14,7 +12,7 @@ class Dato {
   LocalDate fecha;
 }
 
-public class P3_2ReadData {
+public class P3_2ReadCSV {
   private static final String PATRON = "yyyy-MM-dd";
   private static final DateTimeFormatter DTF = DateTimeFormatter.ofPattern(PATRON);
 

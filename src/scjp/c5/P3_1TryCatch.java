@@ -28,12 +28,13 @@ public class P3_1TryCatch {
 
     try {
       // No throw new Exception();
+      // System.out.println(5/0);
     } finally {
-      System.out.println("Finally");
+      System.out.println("Finally.."); // Finally.. is printed: Es una promesa que se ejecutará
     }
 
 
-    // doStuff();
+    //doStuff(); // Muestra la secuencia de la pila de llamadas
     
     try {
       doStuff();

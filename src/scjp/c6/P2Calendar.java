@@ -9,11 +9,11 @@ import java.time.Period; // period of time: years, months and days
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
-// inmutable
+// inmutable: No existe new en la clase LocalDate, LocalDateTime, LocalTime, Period
 public class P2Calendar {
 
   public static void main(String[] args) {
-    Calendar c = new GregorianCalendar();
+    Calendar c = new GregorianCalendar();  // GregorianCalendar is a subclass of Calendar  
 
     System.out.println(c.get(Calendar.DAY_OF_WEEK));
     // DAY_OF_WEEK is 1-based, SUNDAY is 1 AND SATURDAY is 7 default
@@ -37,19 +37,25 @@ public class P2Calendar {
     System.out.println(ld); // 2024-11-15
 
 
-    // LocalDateTime d1 = new LocalDateTime(); // won’t compile
+    // LocalDateTime d1 = new LocalDateTime(); // won’t compile 
     LocalDateTime d1 = LocalDateTime.now(); // will compile
 
     Period p1 = Period.between(ld2, LocalDate.now());           // (menor, mayor)
     System.out.println(p1); // P9Y11M0D
     System.out.println(p1.getYears()); // 9
 
-    //DateTimeFormatter DTF = DateTimeFormatter.ofPattern("dd/MMM/yyyy");
-    DateTimeFormatter DTF = DateTimeFormatter.ofPattern("E MMM dd, yyyy");
+    DateTimeFormatter DTF = DateTimeFormatter.ofPattern("dd/MMM/yyyy");
+    //DateTimeFormatter DTF = DateTimeFormatter.ofPattern("E MMM dd, yyyy");
 
     System.out.println(ld.format(DTF)); // 16/nov/2024
     System.out.println(ld.until(LocalDate.of(2025, 1, 1),ChronoUnit.DAYS)); // 47
     
+    // aplicando el formato a un string
+    String fecha="22/nov/2024";
+    LocalDate ld3 = LocalDate.parse(fecha,DTF);
+    p = Period.of(0, 0, 1);
+    System.out.println(ld3.plus(p));
+    System.out.println(ld3.format(DTF));
     
 
   }

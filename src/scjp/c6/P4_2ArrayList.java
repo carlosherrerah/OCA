@@ -6,7 +6,7 @@ import java.util.List;
 
 public class P4_2ArrayList {
   static int x1; // 0
-  static Integer x2; // null
+  static Integer X2; // null
 
   public static void doStuff(int x) {
     int y = x++;
@@ -15,9 +15,9 @@ public class P4_2ArrayList {
 
   public static void main(String[] args) {
     doStuff(x1); // 0
-    //doStuff(x2); // null pointer exception
+    //doStuff(X2); // null pointer exception
 
-    // Arreglos Estaticos a Dinamicos
+    // Arreglos Estaticos
     Integer[] a = new Integer[2];
     a[0] = 2;
     a[1] = 1;

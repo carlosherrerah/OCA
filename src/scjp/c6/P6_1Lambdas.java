@@ -42,7 +42,7 @@ public class P6_1Lambdas {
     m1.go(x -> {
       int y = 5;
       return adder(y, 5) > 10;
-    }); // Match
+    }); // No Match
 
   }
 

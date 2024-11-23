@@ -54,7 +54,7 @@ public class P3Arrays {
     Perro[] dogs2 = { new Perro("Rover"), new Perro("Fido") };
 
     Domestico[] pets = dogs; // legal because Perro is a Domestic, Perro implements Domestic
-    // Perro[] dogs3 = pets; // illegal, because Domestic is not a Perro
+    // Perro[] dogs3 = pets; // illegal, because Domestic is not necessarily a Dog
     System.out.println(dogs[0] instanceof Domestico); // true
 
     System.out.println(". . . Hecho");

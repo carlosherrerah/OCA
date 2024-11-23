@@ -20,7 +20,7 @@ public class P1String {
     System.out.println(s1 + " : " + s2);
 
     String a = "abc"; // crea 1 objeto y 1 referencia
-    String b = new String("abc"); // crea 2 objetos y 1 referencia
+    String b = new String("abc"); // crea 2 objetos (String pool y Heap) y 1 referencia (stack)
 
     String x = "   hi  ";
     System.out.println(x + "t");

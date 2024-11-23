@@ -12,12 +12,12 @@ public class P3_3Exception {
       // int a = 1/0;
       throw new RuntimeException();
     } finally {
-      System.out.println("finally");  // se compromete a ejecutar aunque exsita otra excepción
+      System.out.println("finally"); // se compromete a ejecutar aunque exista otra excepción
       // throw new Error();
     }
   }
 
-  static void badMethod()  /* throws Exception */   { // No need to declare an Error
+  static void badMethod()  { //
     try {
       doStuff();
     } catch (Exception e) {
@@ -25,24 +25,23 @@ public class P3_3Exception {
       System.out.println("badMethod Exception");
     }
 
-    //doStuff(); // Si cacha la excepción, no se propaga
-
+    // doStuff(); // Si cacha la excepción, no se propaga
   }
 
-  static void doStuff()  throws Exception  { // 
+  static void doStuff()   throws Exception  { //
     try {
       throw new Exception();
     } catch (Exception me) {
       System.out.println("doStuff   Exception");
-      //throw new RuntimeException(); 
-      //throw new Exception(); // throws Exception
-      throw me;                // throws Exception
+      //throw new RuntimeException(); // NO requiere throws Exception
+      //throw new Exception();      // requiere throws Exception
+      throw me;                   // requiere throws Exception
     }
   }
 
-  public static void main(String[] args)  {
-    //lanzar();
-    badMethod();
+  public static void main(String[] args) {
+    lanzar();
+    //badMethod();
     System.out.println(". . . Hecho!");
   }
 

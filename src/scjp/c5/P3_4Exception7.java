@@ -10,7 +10,7 @@ class CC2 extends CC { void doStuff() throws SubSubException { } }
 
 // class CC3 extends CC { void doStuff() throws Exception { } } // no compila, porque Exception es > que SubException
 
-class CC4 extends CC { void doStuff(int x) throws Exception { } }
+class CC4 extends CC { void doStuff(int x) throws Exception { } } // si se agrega un parametro, entonces es otro metodo
 
 class CC5 extends CC { void doStuff() { } }  // arriba esta declarado throws SubException, por lo tanto, permitido no poner throws
 
